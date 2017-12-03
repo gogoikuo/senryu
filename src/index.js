@@ -22,7 +22,7 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL).
 const handlers = {
     // launch - just call help intent.
     'LaunchRequest': function () {
-        this.emit('Amazon.HelpIntent');
+        this.emit('AMAZON.HelpIntent');
     },
     // speech out help message.
     'AMAZON.HelpIntent': function () {
