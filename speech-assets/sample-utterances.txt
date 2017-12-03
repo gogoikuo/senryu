@@ -1,0 +1,3 @@
+SenryuIntent おもしろい話を教えて
+SenryuIntent 川柳を聞かせて
+SenryuIntent 今日の川柳は
