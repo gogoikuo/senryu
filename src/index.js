@@ -1,11 +1,17 @@
 'use strict';
 
 // main contents of the SenryuIntent.
+// got from SNS uploads.
 const sentences = [
     'ゆとりでしょ そういうあなたは バブルでしょ',
     '久しぶり 聞くに聞けない 君の名は',
     'ありのまま すっぴんみせたら 君の名は',
-    '同窓会 みんなニコニコ 名前出ず'
+    '同窓会 みんなニコニコ 名前出ず',
+    'パパお風呂 入れじゃなくて 掃除しろ',
+    '君の名は ゆとり世代の 名が読めず',
+    '病院で サミットしてる セブン',
+    'ばあちゃんが オシャレにキメる 通院日',
+    '暖かく 迎えてくれるは 便座のみ'
 ];
 
 const Alexa = require('alexa-sdk'); // read Alexa SDK.
